@@ -1,6 +1,10 @@
 from flask import Flask, render_template, redirect, url_for, request, session
-from model.users import Users, db
-from form import RegisterForm, LoginForm
+try:
+    from app.model.users import Users, db
+    from app.form import RegisterForm, LoginForm
+except ImportError:
+    from model.users import Users, db
+    from form import RegisterForm, LoginForm
 import os
 from datetime import datetime
 from dotenv import load_dotenv
