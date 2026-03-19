@@ -20,7 +20,7 @@ A Flask-based user authentication system with Neon PostgreSQL database, deployed
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/kk161205/GLA-B2-FLASK-CLASSWORK.git
+   git clone [https://github.com/ananshi04/B2-GLA-Fullstack].git
    cd GLA-B2-FLASK-CLASSWORK
    ```
 
